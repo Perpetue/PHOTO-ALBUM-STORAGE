@@ -8,18 +8,31 @@
 	</head>
 
 	<body>
-      <div class="gallery" align="center">
-          <h3>Simple HTML Photo Gallery with JavaScript</h3>
-        <a href="./image/images(1)" data-lightbox="mygallery" data-title="road"><img src="image/images(1)"></a>
-        <a href="./image/images(2)" data-lightbox="mygallery" data-title=""><img src="image/images(2)"></a>
-        <a href="./image/images(3)" data-lightbox="mygallery" data-title=""><img src="image/images(3)"></a>
-        <a href="./image/images(4)" data-lightbox="mygallery" data-title=""><img src="image/images(4)"></a>
-        <a href="./image/images(5)" data-lightbox="mygallery" data-title=""><img src="image/images(5)"></a>
+        <div class="gallery" align="center" >
+            <input type="file" onchange="previewFile()"><br>
+            <img src="" height="200" alt="Image preview..."/>
+
+            <input type='file' onchange="readURL(this);" />
+           <img id="blah" src="#" alt="your image" />
+
+
+
+        <!-- <div class="gallery" align="center" >
+          <h3>Simple HTML Photo Gallery with JavaScript</h3> 
+          <div class="thumbnails">
+            <a href="./image/images(1)" data-lightbox="mygallery" data-title="road" ><img src="image/images(1)"></a>
+            <a href="./image/images(2)" data-lightbox="mygallery" ><img src="image/images(2)" class="lightbox-image"></a>
+            <a href="./image/images(3)" data-lightbox="mygallery" ><img src="image/images(3)" class="lightbox-image"></a>
+            <a href="./image/images(4)" data-lightbox="mygallery" ><img src="image/images(4)" class="lightbox-image"></a>
+            <a href="./image/images(5)" data-lightbox="mygallery" ><img src="image/images(5)" class="lightbox-image"></a>
+          </div>
+            -->
 
          
 
         
         <script src="./js/lightbox-plus-jquery.min.js"></script>
+        <script src="./js/jquery-3.3.1.min.js"></script>
         <script src="./js/script1.js"></script>
 	</body>
 </html>
