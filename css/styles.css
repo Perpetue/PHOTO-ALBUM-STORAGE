@@ -1,2 +1,29 @@
-h1,h2,h3,h4,h5,h6 {font-family: "Oswald"}
-body {font-family: "Open Sans"}
+.search-container{
+  float: left;
+  display: block;
+  color: black;
+  padding: 15px 16px;
+  font-size: 17px;
+  background-color:black ;
+  color: white;
+  width: 100%; 
+}
+.seach{
+    width: 500px;
+    border-radius: 12px;
+}
+.submit{
+    width: 150px ;
+    margin: 10px;
+    float: right;
+    border-radius: 12px;
+    text-decoration: none;
+}
+.win{
+    margin-right:10%; 
+    text-decoration: none;
+    font-weight: 1000;
+}
+.mySlides{
+    height: 540px;
+}
