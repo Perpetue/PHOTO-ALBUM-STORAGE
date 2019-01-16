@@ -28,3 +28,6 @@ input {
     border: 1px solid transparent;
     margin: 10px 5px 0 ;
 }
+.thumbnails{
+    border-radius: 15px;
+}
