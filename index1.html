@@ -4,21 +4,62 @@
         <link rel="stylesheet" type="text/css" href="./css/bootstrap-3.3.7-dist/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="./css/lightbox.min.css">
         <link rel="stylesheet" type="text/css" href="./css/styles1.css">
-		<title></title>
+        <title>Upload photo</title>
+        
 	</head>
 
 	<body>
-        <h3>Upload photo</h3>
+           <h3>Upload photo</h3>
         
-        <div class="gallery" align="center">
-            <input type='file' onchange="readURL(this);" class="thumbnails"/>
-            <img id="uploadImage" src="" accept="image/*" data-lightbox="mygallery"/>
-        </div>
+              <input type="file" name="fileupload" value="fileupload" id="fileupload">
+              <label for="fileupload"><img src="image/upload.jpg" class="button"/> </label> 
+              <input type="submit" value="submit"> 
+           <div class="gallery" align="center" >   
+              <span>
+                <div class="row"> 
+                                <div class="column">
+                                <img src="image/paris (1).jpg" style="width:30%" onclick="openModal();currentSlide(1)" class="hover-shadow cursor">
+                                <img src="image/rocks (1).jpg" style="width:30%" onclick="openModal();currentSlide(2)" class="hover-shadow cursor">
+                                <img src="image/underwater (1).jpg" style="width:30%" onclick="openModal();currentSlide(3)" class="hover-shadow cursor">
+                                <img src="image/wedding (1).jpg" style="width:30%" onclick="openModal();currentSlide(4)" class="hover-shadow cursor">
+                                <img src="image/white_album.jpg" style="width:30%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                                <img src="image/maxresdefault.jpg" style="width:30%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                                <img src="image/ocean.jpg" style="width:30%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+                                <img src="image/mountainskies.jpg" style="width:30%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+                                <img src="image/natural-light-1.jpeg" style="width:30%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+                                <img src="image/maxresdefault.jpg" style="width:30%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+                                <img src="image/nature.jpg" style="width:30%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+                                <img src="image/white_album.jpg" style="width:30%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                                <img src="image/maxresdefault.jpg" style="width:30%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                                <img src="image/ocean.jpg" style="width:30%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+                                <img src="image/mountainskies.jpg" style="width:30%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+                                <img src="image/natural-light-1.jpeg" style="width:30%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+                                <img src="image/maxresdefault.jpg" style="width:30%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+                                <img src="image/nature.jpg" style="width:30%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+                                <img src="image/white_album.jpg" style="width:30%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                                <img src="image/maxresdefault.jpg" style="width:30%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                                <img src="image/ocean.jpg" style="width:30%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+                                <img src="image/mountainskies.jpg" style="width:30%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+                                <img src="image/natural-light-1.jpeg" style="width:30%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+                                <img src="image/maxresdefault.jpg" style="width:30%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+                                <img src="image/nature.jpg" style="width:30%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+                                <img src="image/white_album.jpg" style="width:30%" onclick="openModal();currentSlide(5)" class="hover-shadow cursor">
+                                <img src="image/maxresdefault.jpg" style="width:30%" onclick="openModal();currentSlide(6)" class="hover-shadow cursor">
+                                <img src="image/ocean.jpg" style="width:30%" onclick="openModal();currentSlide(7)" class="hover-shadow cursor">
+                                <img src="image/mountainskies.jpg" style="width:30%" onclick="openModal();currentSlide(8)" class="hover-shadow cursor">
+                                <img src="image/natural-light-1.jpeg" style="width:30%" onclick="openModal();currentSlide(9)" class="hover-shadow cursor">
+                                <img src="image/maxresdefault.jpg" style="width:30%" onclick="openModal();currentSlide(10)" class="hover-shadow cursor">
+                                <img src="image/nature.jpg" style="width:30%" onclick="openModal();currentSlide(11)" class="hover-shadow cursor">
+                                
+                </div>
+              </span>
+            </div>
         <script src="./js/lightbox-plus-jquery.min.js"></script>
         <script src="./js/jquery-3.3.1.min.js"></script>
         <script src="./js/script1.js"></script>
-	</body>
+    </body>
 </html>
+
 
 
 

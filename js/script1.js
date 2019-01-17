@@ -12,7 +12,10 @@ $("input").change(function(e) {
         }
         reader.readAsDataURL(this.files[0]);
         $("input").after(img);//display the preview images
+        
+        myDropzone.on("complete", function(file) {
+           myDropzone.removeFile(file);
+          });
     }
 });
-
 
