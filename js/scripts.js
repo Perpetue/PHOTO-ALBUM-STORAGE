@@ -13,4 +13,14 @@ function carousel() {
   x[myIndex-1].style.display = "block";
   setTimeout(carousel, 3000);
 }
+// to display Log in form
+// $(document).ready(function(){
+//   $("#login").click(function(){
+//   $(".modal").fadeIn('slow'); 
+//   });
+//   $("#signup").click(function(){
+//     $(".queen").fadeIn('slow');
+//   });
+// });
+
 
