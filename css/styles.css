@@ -1,8 +1,4 @@
 /*styles of index.html*/
-body{
-  font-family: verdana;
-  background-size:cover;
-}
 .search-container{
   float: left;
   display: block;
@@ -14,7 +10,7 @@ body{
   width: 100%; 
 }
 .seach{
-    width: 500px;
+    width:25%;
     border-radius: 12px;
 }
 .submit{
@@ -130,10 +126,7 @@ input[type=text], input[type=password] {
     padding-top: 60px;
   float: left;
   } 
-  .carousel-caption{
-    align-items: center
-    
-    
-  } 
-
-
+  body{
+    font-family:'josefin',sans-serif;
+    background-size:cover;
+  }
