@@ -1,3 +1,8 @@
+/*styles of index.html*/
+body{
+  font-family: verdana;
+  background-size:cover;
+}
 .search-container{
   float: left;
   display: block;
@@ -27,3 +32,108 @@
 .mySlides{
     height: 540px;
 }
+/*styles of index21.html*/
+input[type=text], input[type=password] {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  /* Set a style for all buttons */
+ /* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: left;
+  width: 25%;
+  border-radius: 12px;
+  background-color: red;
+  padding: 10px 15px
+}
+.signupbtn{
+  background-color: rgb(30, 255, 0);
+}
+.buttom1{
+  background-color: rgb(30, 255, 0);
+  border-radius: 12px;
+  width: 25%;
+  padding: 10px 15px
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+  /* The Modal (background) */
+  .modal{
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+    float: center;
+     background-image:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmd_O6rOCOts4eCtWn0rF7H_PH6qYaiFYsieKR_sbxq0yo8QPSGg); 
+     background-repeat: repeat;
+    }
+  /* Add Zoom Animation */
+.animate {
+    -webkit-animation: animatezoom 0.6s;
+    animation: animatezoom 0.6s
+  }
+  
+  @-webkit-keyframes animatezoom {
+    from {-webkit-transform: scale(0)} 
+    to {-webkit-transform: scale(1)}
+  }
+    
+  @keyframes animatezoom {
+    from {transform: scale(0)} 
+    to {transform: scale(1)}
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+       display: block;
+       float: none;
+    }
+}
+.queen{
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    padding-top: 60px;
+  float: left;
+  } 
+  .carousel-caption{
+    align-items: center
+    
+    
+  } 
+
+
