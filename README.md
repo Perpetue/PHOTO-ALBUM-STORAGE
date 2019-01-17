@@ -8,3 +8,6 @@ It upload images and stores them .
 * git clone https://github.com/Perpetue/Project-Pig-Dice
 * Open the index.html file with the browser of your choice
  and To access on this project, you have to use google chrome and text-editor.
+## Link to live site on GitHub Pages
+https://github.com/Perpetue/PHOTO-ALBUM-STORAGE
+
