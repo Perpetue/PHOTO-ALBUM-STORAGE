@@ -13,9 +13,16 @@ $("input").change(function(e) {
         reader.readAsDataURL(this.files[0]);
         $("input").after(img);//display the preview images
         
-        myDropzone.on("complete", function(file) {
-           myDropzone.removeFile(file);
-          });
+        // myDropzone.on("complete", function(file) {
+        //    myDropzone.removeFile(file);
+        //   });
     }
 });
+// $('.image_upload').fileupload('option', 'formData').file = data;
+// $('.image_upload').fileupload('add', { files: [ data ] });
+    //  var newDate = new Date()
+    //  var year=this.years
+    //  var months=this.months;
+    //  var d =
 
+$("input").attr("src", "/img"+ newDate.getTime());
