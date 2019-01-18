@@ -97,5 +97,6 @@ body{
   background-size:cover;
 }
 .buttonprint>button{
-  background-color:green
+  background-color:green;
+  font-size:30px;
 }
