@@ -92,6 +92,9 @@ body{
 }*/
 body{
   font-family: 'Josefin Sans', sans-serif;
+  background-image:url("https://cdn.apk-cloud.com/detail/screenshot/zMg4yeHkYQ0BOyobYwGIFHcHxtW-_I6Fa7yuYenXzbzi1tKXYKf3nw1B9eoFqF9WM4K5=h900.png");
+  background-repeat:no-repeat;
+  background-size:cover;
 }
 .buttonprint>button{
   background-color:green
