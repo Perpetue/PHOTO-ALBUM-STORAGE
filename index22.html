@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Photo Album Storage</title>
+        <link href="./bootstrap-3.3.7-dist/css/bootstrap.css">
+        <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+        <link href="./css/styles.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+     <!--creating a Log in form-->
+        <div id="id01" class="modal">
+            <form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="./image/img_avatar4.png" alt="Avatar" class="avatar" width="100px">
+                </div>
+                <div class="container">
+                    <!--Email-->
+                    <label for="uname"><b>Username</b></label><br>
+                    <input type="text" placeholder="Enter Username" name="uname" required><br>
+                       <!--password-->
+                    <label for="psw"><b>Password</b></label><br>
+                    <input type="password" placeholder="Enter Password" name="psw"  required ><br>
+                    <button type="submit" class="buttom1">Login</button>
+                    <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button><br>
+                    <label><input type="checkbox" checked="checked" name="remember"> Remember me</label>
+                </div>
+                
+            </form>
+        </div>
+    </body>
+</html>

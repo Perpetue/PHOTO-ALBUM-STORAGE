@@ -1,47 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Document</title>
-        <link href="./bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
-        <link href="css/styles.css" rel="stylesheet" type="text/css">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    </head>
-    <body>
-        <div class="slideshow-container">
-        <div class="mySlides fade">
-        <div class="numbertext">1 / 6</div>
-          <img src="./image/images(1)" style="width:100%">
-          <div class="text">Caption Text</div>
-        </div>
-        
-        <div class="mySlides fade">
-          <div class="numbertext">2 / 3</div>
-          <img src="img_snow_wide.jpg" style="width:100%">
-          <div class="text">Caption Two</div>
-        </div>
-        
-        <div class="mySlides fade">
-          <div class="numbertext">3 / 3</div>
-          <img src="img_mountains_wide.jpg" style="width:100%">
-          <div class="text">Caption Three</div>
-        </div>
-        
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        
-        </div>
-        <br>
-        
-        <div style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span> 
-          <span class="dot" onclick="currentSlide(2)"></span> 
-          <span class="dot" onclick="currentSlide(3)"></span> 
-        </div>
-        
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Photo Album Storage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link href="./bootstrap-3.3.7-dist/css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+        <!-- Navigation -->
+    <div class="search-container">
+      <form >
+        <a href="#Group Winner" class="win">PICHA</a>
+        <input type="text" placeholder="Photo,People or Group" name="search" class="seach">
+        <button type="submit"><i class="fa fa-search" class="button"></i></button>
+        <a href="./index22.html" class="submit" id="login"> Log In</a>
+        <button type="submit" class="submit" id="signup"><a href="./index21.html">Sign Up</a></button>
+      </form>
+    </div>
+        <!-- Slide Show -->
+      <section>
+        <img class="mySlides" src="./image/image/Accenture-Exploring-Natural-Resources-Marquee.jpg" width="100%" >
+        <h3>Upload, Access, Organize , Edit , print and share your photo from any device and any where in World.</h3>
+        <img class="mySlides" src="./image/image/5445598-natural-images.jpg" width="100%" >
+        <img class="mySlides" src="./image/image/free-wallpaper-1.jpg" width="100%" >
+        <img class="mySlides" src="./image/image/natural-light-1.jpeg" width="100%">
+      </section>
+                  <!-- Footer --> 
+      <footer class="w3-bar w3-black">
+        <nav >
+          <a href="#home" class="w3-button w3-bar-item">Home</a>
+          <a href="#band" class="w3-button w3-bar-item">Album</a>
+          <a href="#tour" class="w3-button w3-bar-item">Tour</a>
+          <a href="#contact" class="w3-button w3-bar-item">Contact</a>
+        </nav>
+        <p class="w3-center">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">Winner's Group</a>
+        </p>
+      </footer> 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
-    </body>
+  </body>
 </html>
